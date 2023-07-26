@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.myrestructure.testcases.GaugeViewPageTest"/>
+      <class name="com.myrestructure.testcases.DashboardPageTest"/>
+      <class name="com.myrestructure.testcases.AddGroupPageTest"/>
+      <class name="com.myrestructure.testcases.AddAlertThresholdPageTest"/>
+      <class name="com.myrestructure.testcases.AddGraphGroupPageTest"/>
+      <class name="com.myrestructure.testcases.AddLcdParameterPageTest"/>
+      <class name="com.myrestructure.testcases.LoginPageTest"/>
+      <class name="com.myrestructure.testcases.HistoricalViewPageTest"/>
+      <class name="com.myrestructure.testcases.AddLcdDiffParameterPageTest"/>
+      <class name="com.myrestructure.testcases.AddUsersPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

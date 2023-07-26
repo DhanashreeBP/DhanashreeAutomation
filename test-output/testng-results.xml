@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-26T15:51:22 IST" name="Default suite" finished-at="2023-07-26T15:53:01 IST" duration-ms="98960">
+    <groups>
+    </groups>
+    <test started-at="2023-07-26T15:51:22 IST" name="Default test" finished-at="2023-07-26T15:53:01 IST" duration-ms="98960">
+      <class name="com.myrestructure.testcases.AddLcdDiffParameterPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.myrestructure.testcases.AddLcdDiffParameterPageTest@623a8092]" started-at="2023-07-26T15:51:22 IST" name="loadConfig" finished-at="2023-07-26T15:51:22 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.myrestructure.testcases.AddLcdDiffParameterPageTest@623a8092]" started-at="2023-07-26T15:51:24 IST" name="setup" finished-at="2023-07-26T15:51:39 IST" duration-ms="15351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createLcdDiffTest(java.util.HashMap)[pri:0, instance:com.myrestructure.testcases.AddLcdDiffParameterPageTest@623a8092]" started-at="2023-07-26T15:51:39 IST" name="createLcdDiffTest" data-provider="newLcdDiffDetailsData" finished-at="2023-07-26T15:53:00 IST" duration-ms="80636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DeviceType=EMA, ParameterName=kVA (Demand)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLcdDiffTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myrestructure.testcases.AddLcdDiffParameterPageTest@623a8092]" started-at="2023-07-26T15:53:00 IST" name="tearDown" finished-at="2023-07-26T15:53:01 IST" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myrestructure.testcases.AddLcdDiffParameterPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
